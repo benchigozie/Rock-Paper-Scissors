@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="main.js"></script>   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="title"><h1>Rock Paper Scissors</h1></header>
+    <div class="display"><h2 class="displays"></h2></div>
+    <div class="reset"><button>Play Again</button></div>
+    <div class="player-section">
+      <div class="player-selection-box">
+        <img src="./images/rock_1faa8.png" class="player-image" id="rock" />
+        <img
+          src="./images/page-with-curl_1f4c3.png"
+          class="player-image"
+          id="paper"
+        />
+        <img
+          src="./images/scissors_2702-fe0f.png"
+          class="player-image"
+          id="scissors"
+        />
+      </div>
+    </div>
+    <div class="score-board">
+        <div class="player-score"><p>You: 0</p></div>
+        <div class="computer-score"><p>Computer: 0</p></div>
+    </div>
+    <div class="past-score">
+      <div>
+        
+      </div>
+      <div>
+
+      </div>
+    </div>
+    <script src="main.js">
+    </script>
+  </body>
 </html>
